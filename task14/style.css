@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: #1D1E26;
+    width: 100%;
+    height: 64px;
+    
+    display: block;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+.list{
+    list-style: none;
+    margin-left: 35%;
+    color: #fff;
+    display: flex;
+    
+}
+.nav-link a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    display: block;
+
+}
+.nav-link :nth-child(1){
+    padding-top: 20px;
+    padding-left: 34px;
+    padding-right: 25px;
+}
+.list :nth-child(2){
+    background-color: #8C111B;
+    width: 116px;
+    height: 64px;
+}
+.main{
+    background-image: url(Component\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 805px;
+}
+.main h1{
+    color: #F2F2F2;
+    text-align: center;
+    text-shadow: -2px 2px 0px #8C111B;
+    font-family: Lora;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20%;
+    
+}
+.main p{
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 8%;
+}
+section{
+    background: #1D1E26;
+    height: 600px;
+}
+.img{
+    width: 435px;
+    height: 542px;
+    display: flex;
+    padding-top: 60px;
+    padding-left: 60%;
+}
+.text{
+    background: #1D1E26;
+    margin-top: -30%;
+    color: #fff;
+    padding-left: 50px;
+}
+.text .first{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+}
+.card{
+    display: flex;
+}
+.box1{
+    display: flex;
+    color: #fff;
+    padding-left: 30px;
+}
+.two{
+    text-align: center;
+    font-size: 40px;
+    color: #F2F2F2;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+ol{
+    color: #F2F2F2;
+    padding-top: 30px;
+}
+h5{
+    color: #F2F2F2;
+    font-size: 15px;
+    padding-left: 15px;
+    
+}
+.box2{
+    display: flex;
+    padding-left: 160px;
+}
+.box3{
+    display: flex;
+    padding-left: 260px;
+}
+h6{
+    color: #F2F2F2;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 15px;
+}
+footer{
+    background: #8C111B;
+    width: 1520px;
+    height: 50px;
+}
+h3{
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #F2F2F2;
+}
